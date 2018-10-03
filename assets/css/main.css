@@ -50,11 +50,6 @@ table {
 	border-spacing: 0;
 }
 
-a:before {
-	content: '\a';
-	white-space: pre;
-}
-
 body {
 	-webkit-text-size-adjust: none;
 }
