@@ -45,15 +45,24 @@ blockquote, q {
 		content: '';
 		content: none;
 	}
-
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
+a:before {
+	content: '\a';
+	white-space: pre;
+}
+
 body {
 	-webkit-text-size-adjust: none;
 }
+
+h3 {
+	color: sandybrown;
+}
+
 
 mark {
 	background-color: transparent;
@@ -113,7 +122,7 @@ input, select, textarea {
 		-ms-transition: border-color 0.2s ease-in-out;
 		transition: border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: inherit;
+		color: white;
 		outline: 0;
 		text-decoration: none;
 	}
