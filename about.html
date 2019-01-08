@@ -1,0 +1,53 @@
+<html>
+<head>
+    <title>Jack Goldsworth</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css"/>
+    </noscript>
+</head>
+<body class="is-preload">
+<div id="wrapper">
+    <div id="bg"></div>
+    <div id="overlay"></div>
+    <div id="main">
+        <header id="header">
+            <p>Hello, my name is Jack Goldsworth and I am a Software Engineering student at Iowa State. <br>
+                I have been programming since late 2014. I began programming to make Minecraft Servers, and <br>
+                then Minecraft Mods. I am currently working on an education platform, but there is no end in sight <br>
+                Some of my big projects are:
+            <h1>JurassiCraft</h1>
+            <b> A Minecraft mod based on Jurassic Park, that currently sits at 2.7 million downloads. <br>
+                I started working on JurassiCraft early 2015, and had an on and off ownership relation between
+                2015 and mid 2018.
+            </b>
+            <h1>DumbCode</h1>
+            <b> A Minecraft modding team that is currently working on several mods, and has around 20 members, <br>
+                whether that be programmers or artists. We are aiming to create the best mods in the community.
+            </b>
+            </p>
+        </header>
+    </div>
+</div>
+<script>
+    window.onload = function () {
+        document.body.classList.remove('is-preload');
+    }
+    window.ontouchmove = function () {
+        return false;
+    }
+    window.onorientationchange = function () {
+        document.body.scrollTop = 0;
+    }
+</script>
+</body>
+</html>
+
+<style>
+    a:before {
+        content: '\a';
+        white-space: pre;
+    }
+</style>
