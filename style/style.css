@@ -11,6 +11,10 @@
     display: flex;
     min-height: 100vh;
     flex-direction: column;
+    font-family: 'Rajdhani', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    background: #f7f7f7;
 }
 
 img:hover {
