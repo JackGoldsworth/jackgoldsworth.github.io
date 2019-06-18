@@ -1,49 +1,73 @@
 <!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Jack Goldsworth</title>
 		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
-
-				<!-- Header -->
-					<header id="header">
-						<h1>Jack Goldsworth</h1>
-						<p>Student at Iowa State&nbsp;&bull;&nbsp; Software Engineer &nbsp;&bull;&nbsp;Self Taught Programmer</p>
-						<nav>
-							<ul>
-								<li><a href="https://twitter.com/JackGoldsworth" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/JackGoldsworth" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://www.linkedin.com/in/jack-goldsworth-38605816b/" class="icon fa-linkedin-square"><span class="label">Linkedin</span></a></li>
-								<li><a href="html/tutorials.html" class="icon fa-link"><span class="label">Links</span></a></li>
-                                <li><a href="about.html" class="icon fa-question"><span
-                                        class="label">About Me</span></a></li>
-							</ul>
-						</nav>
-					</header>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+	<body class="main">
+	<section class="section">
+		<div class="container has-text-centered">
+			<h1 class="title is-size-1">Jack Goldsworth</h1>
+			<div class="columns is-horizontal-center">
+				<figure class="image is-64x64">
+					<a href="https://github.com/JackGoldsworth"><img src="images/github.png"></a>
+				</figure>
+				<figure class="image is-64x64">
+					<a href="https://twitter.com/JackGoldsworth"><img src="images/twitter.png"></a>
+				</figure>
+				<figure class="image is-64x64">
+					<a href="https://www.linkedin.com/in/jack-goldsworth-38605816b/"><img src="images/linkedin.png"></a>
+				</figure>
 			</div>
 		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+	</section>
+	<section class="section has-background-light">
+		<div class="container has-text-centered">
+			<article class="">
+				Hello, My name is Jack Goldsworth, I am a 19 year old developer that loves solving problems and creating new software. <br>
+					I am currently a sophomore at Iowa State University studying Software Engineering. <br> <strong> Below are some of my projects</strong>:
+			</article>
+		</div>
+	</section>
+	<section class="section">
+		<div class="container has-text-centered">
+			<div class="columns">
+				<div class="column">
+					<div class="notification is-dark">
+						<h1 class="title">DumbCode</h1>
+						<p class="is-size-5">
+							DumbCode is a Minecraft modding team that develops some of the most advanced Minecraft mods to date. Our
+							flagship mod is called Project Nublar, which adds dinosaurs to Minecraft. Learn more
+						</p>
+						<a href="http://dumbcode.net">here</a>
+					</div>
+				</div>
+				<div class="column">
+					<div class="notification is-info">
+						<h1 class="title">JurassiCraft</h1>
+						<p class="is-size-5">
+							JurassiCraft is a Minecraft mod based off of Jurassic Park, and it adds dinosaurs to Minecraft. It has been
+							downloaded over 3.2 Million times and has a very active community. Learn more
+						</p>
+						<a href="https://minecraft.curseforge.com/projects/jurassicraft">here</a>
+					</div>
+				</div>
+				<div class="column">
+					<div class="notification is-link">
+						<h1 class="title">Vision</h1>
+						<p class="is-size-5">
+							Vision is a home automation system. Think of it as a cheap alexa clone with many less features. Originally it was built in
+							Python, but it is currently in a Kotlin re-write. <br> Learn more
+						</p>
+						<a href="https://github.com/JackGoldsworth/Vision2">here</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 	</body>
 </html>
