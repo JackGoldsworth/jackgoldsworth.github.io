@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/pdf.css" />
     <!-- Bulma -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
     <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
@@ -14,8 +13,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
     <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
 </head>
-<body class="main">
-<script src="js/vanta.js"></script>
+<body class="main" style="min-height: 130vh;">
 <script src="js/pdf.js"></script>
 <nav class="navbar" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
@@ -44,19 +42,31 @@
     </div>
 </section>
 <script>
-    window.onload = () => {loadPdf('tutorials.json')};
-    document.getElementById("tutorial").addEventListener("click", () => {loadPdf('tutorials.json')});
-    document.getElementById("videos").addEventListener("click", () => {loadPdf('videos.json')});
-    document.getElementById("pdfs").addEventListener("click", () => {loadPdf('pdfs.json')});
-    document.getElementById("misc").addEventListener("click", () => {loadPdf('misc.json')});
+    async function load() {
+        window.onload = () => {loadPdf('tutorials.json')};
+        document.getElementById("tutorial").addEventListener("click", () => {loadPdf('tutorials.json')});
+        document.getElementById("videos").addEventListener("click", () => {loadPdf('videos.json')});
+        document.getElementById("pdfs").addEventListener("click", () => {loadPdf('pdfs.json')});
+        document.getElementById("misc").addEventListener("click", () => {loadPdf('misc.json')});
 
-    document.getElementById("burger").addEventListener("click", () => {
-        let nav = document.getElementById("pdf-titles");
-        if(nav.className === "navbar-menu") {
-            nav.className = "navbar-menu is-active";
-        } else {
-            nav.className = "navbar-menu";
-        }
+        document.getElementById("burger").addEventListener("click", () => {
+            let nav = document.getElementById("pdf-titles");
+            if(nav.className === "navbar-menu") {
+                nav.className = "navbar-menu is-active";
+            } else {
+                nav.className = "navbar-menu";
+            }
+        });
+    }
+    load().then(() => {
+        VANTA.NET({
+            el: ".main",
+            color: 0xdcdcdc,
+            backgroundColor: 0xffffff,
+            maxDistance: 24.00,
+            spacing: 20.00,
+            showDots: false
+        });
     });
 </script>
 </body>
