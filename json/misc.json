@@ -1,0 +1,32 @@
+{
+  "mla": {
+    "displayName": "Machine-Learning-Algorithms",
+    "description": "This is a repository full of Machine Learning algorithms and explanations.",
+    "link": "https://github.com/aswinzz/Machine-Learning-Algorithms"
+  },
+  "tinyRender": {
+    "displayName": "How OpenGL works",
+    "description": "A Github wiki that explains how OpenGL works behind the scenes.",
+    "link": "https://github.com/ssloy/tinyrenderer/wiki"
+  },
+  "xiny": {
+    "displayName": "Learn X in Y",
+    "description": "This is a website that helps you learn new programming languages extremely quick.",
+    "link": "https://learnxinyminutes.com/"
+  },
+  "byox": {
+    "displayName": "Build your own X",
+    "description": "A Github MD with lots of tutorial links about everything from implementing your own crypto currency to game engine design.",
+    "link": "https://github.com/danistefanovic/build-your-own-x"
+  },
+  "lmlin3m": {
+    "displayName": "Machine learning in three months",
+    "description": "A guide to learning machine learning in only three months!",
+    "link": "https://github.com/llSourcell/Learn_Machine_Learning_in_3_Months"
+  },
+  "libgen": {
+    "displayName": "Library Genesis",
+    "description": "A website that allows you to get free books (Use at your own risk).",
+    "link": "http://gen.lib.rus.ec/"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "amt": {
+    "displayName": "ANTLR mega tutorial",
+    "description": "Tutorial on how to use ANTLR, which is a parse library.",
+    "link": "https://tomassetti.me/antlr-mega-tutorial"
+  },
+  "oglt": {
+    "displayName": "OpenGL tutorial",
+    "description": "A step by step tutorial on how to use OpenGL",
+    "link": "http://www.opengl-tutorial.org/"
+  },
+  "kfjd": {
+    "displayName": "Kotlin for Java Developers",
+    "description": "A coursera course that teaches Kotlin for Java Developers.",
+    "link": "https://www.coursera.org/learn/kotlin-for-java-developers"
+  },
+  "ids": {
+    "displayName": "Introduction to Data Science",
+    "description": "A coursera course that teaches the basics of Data Science.",
+    "link": "https://www.coursera.org/specializations/introduction-data-science"
+  },
+  "majvm": {
+    "displayName": "How to make a JVM language",
+    "description": "This is a series that teaches anyone how to make a JVM language with Java",
+    "link": "http://jakubdziworski.github.io/enkel/2016/03/10/enkel_first.html"
+  },
+  "majvmk": {
+    "displayName": "How to make a JVM language with Kotlin",
+    "description": "This is a series that teaches anyone how to make a JVM language with Kotlin",
+    "link": "https://tomassetti.me/getting-started-with-antlr-building-a-simple-expression-language/"
+  },
+  "nasm": {
+    "displayName": "Nasm",
+    "description": "A tutorial that teaches nasm assembly",
+    "link": "http://cs.lmu.edu/~ray/notes/nasmtutorial/"
+  }
+}

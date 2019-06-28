@@ -1,0 +1,22 @@
+{
+  "logl": {
+    "displayName": "Learn OpenGL",
+    "description": "Online PDF to learn OpenGL.",
+    "link": "https://learnopengl.com/book/offline%20learnopengl.pdf"
+  },
+  "osd": {
+    "displayName": "Make an OS from scratch",
+    "description": "This is a little pdf that teaches you how to make a simple bootloader and kernel.",
+    "link": "http://www.cs.bham.ac.uk/~exr/lectures/opsys/10_11/lectures/os-dev.pdf"
+  },
+  "git": {
+    "displayName": "Git",
+    "description": "This is the official git book.",
+    "link": "ttps://git-scm.com/book/en/v2"
+  },
+  "dl": {
+    "displayName": "Deep Learning",
+    "description": "An online book that teaches nearly all of Deep Learning for free!",
+    "link": "http://www.deeplearningbook.org/front_matter.pdf"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "wac": {
+    "displayName": "What's A Creel",
+    "description": "One of my favorite Youtubers. He makes videos on C++ and Assembly.",
+    "link": "https://www.youtube.com/user/WhatsACreel"
+  },
+  "sr": {
+    "displayName": "Siraj Raval",
+    "description": "A very good Machine Learning youtuber who explains concepts fantastically.",
+    "link": "https://www.youtube.com/channel/UCWN3xxRkmTPmbKwht9FuE5A"
+  },
+  "sb": {
+    "displayName": "Steve Butler",
+    "description": "An Iowa State math professor, and the best calculus teacher ever.",
+    "link": "https://www.youtube.com/channel/UC2VuCzJx_9luS0y-WDfL3Tg"
+  }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Jack Goldsworth</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/pdf.css" />
+    <!-- Bulma -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!-- Vanta -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
+</head>
+<body class="main">
+<script src="js/vanta.js"></script>
+<script src="js/pdf.js"></script>
+<nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="pdf-titles">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+        </a>
+    </div>
+
+    <div id="pdf-titles" class="navbar-menu">
+        <div class="navbar-start">
+            <a class="navbar-item" href="index.html">Home</a>
+            <a class="navbar-item" id="tutorial">Tutorials</a>
+            <a class="navbar-item" id="videos">Videos</a>
+            <a class="navbar-item" id="pdfs">PDFs</a>
+            <a class="navbar-item" id="misc">MISC</a>
+        </div>
+    </div>
+</nav>
+
+<section class="section" id="main-section">
+    <div class="container has-text-centered">
+        <div class="columns is-multiline is-mobile" id="main-columns">
+        </div>
+    </div>
+</section>
+<script>
+    window.onload = () => {loadPdf('tutorials.json')};
+    document.getElementById("tutorial").addEventListener("click", () => {loadPdf('tutorials.json')});
+    document.getElementById("videos").addEventListener("click", () => {loadPdf('videos.json')});
+    document.getElementById("pdfs").addEventListener("click", () => {loadPdf('pdfs.json')});
+    document.getElementById("misc").addEventListener("click", () => {loadPdf('misc.json')});
+</script>
+</body>
+</html>
