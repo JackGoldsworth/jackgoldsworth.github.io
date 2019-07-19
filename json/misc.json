@@ -28,5 +28,10 @@
     "displayName": "Library Genesis",
     "description": "A website that allows you to get free books (Use at your own risk).",
     "link": "http://gen.lib.rus.ec/"
+  },
+  "easying": {
+    "displayName": "Easing and Interpolation",
+    "description": "A website with lots of instructions on Interpolation and easing.",
+    "link": "http://robertpenner.com/easing/"
   }
 }
