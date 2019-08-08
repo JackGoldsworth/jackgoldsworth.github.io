@@ -33,5 +33,10 @@
     "displayName": "Nasm",
     "description": "A tutorial that teaches nasm assembly",
     "link": "http://cs.lmu.edu/~ray/notes/nasmtutorial/"
+  },
+    "craftinterp": {
+    "displayName": "Crafting Interpreters",
+    "description": "A two part book that teaches you how to make an interpreted language, first in Java, and then in C.",
+    "link": "https://craftinginterpreters.com/"
   }
 }
