@@ -34,9 +34,14 @@
     "description": "A tutorial that teaches nasm assembly",
     "link": "http://cs.lmu.edu/~ray/notes/nasmtutorial/"
   },
-    "craftinterp": {
+  "craftinterp": {
     "displayName": "Crafting Interpreters",
     "description": "A two part book that teaches you how to make an interpreted language, first in Java, and then in C.",
     "link": "https://craftinginterpreters.com/"
+  },
+  "asm": {
+    "displayName": "Writing Byte Code with ASM",
+    "description": "A quick tutorial showing how to write byte code for the JVM with the ASM library",
+    "link": "https://www.beyondjava.net/quick-guide-writing-byte-code-asm"
   }
 }
