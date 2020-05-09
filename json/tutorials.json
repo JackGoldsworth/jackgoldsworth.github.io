@@ -36,12 +36,17 @@
   },
   "craftinterp": {
     "displayName": "Crafting Interpreters",
-    "description": "A two part book that teaches you how to make an interpreted language, first in Java, and then in C.",
+    "description": "A two part book that teaches you how to make an interpreted language, first in Java, and then in C",
     "link": "https://craftinginterpreters.com/"
   },
   "asm": {
     "displayName": "Writing Byte Code with ASM",
     "description": "A quick tutorial showing how to write byte code for the JVM with the ASM library",
     "link": "https://www.beyondjava.net/quick-guide-writing-byte-code-asm"
+  },
+  "rustopengl": {
+    "displayName": "Rust and OpenGL",
+    "description": "A tutorial for using rust with OpenGL",
+    "link": "http://nercury.github.io/rust/opengl/tutorial/2018/02/08/opengl-in-rust-from-scratch-00-setup.html"
   }
 }
