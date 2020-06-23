@@ -1,88 +1,234 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		<title>Jack Goldsworth</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1"/>
-		<link rel="stylesheet" href="style/style.css" />
-		<!-- Bulma -->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
-		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-		<!-- Vanta -->
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
-		<script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
-	</head>
-	<body class="main">
-	<script src="js/vanta.js"></script>
-	<section class="section">
-		<div class="container has-text-centered">
-			<h1 class="title is-size-1">Jack Goldsworth</h1>
-			<div class="columns is-mobile is-horizontal-center">
-				<figure class="image is-64x64">
-					<a href="https://github.com/JackGoldsworth"><img src="images/github.png" alt="github"></a>
-				</figure>
-				<figure class="image is-64x64">
-					<a href="https://www.linkedin.com/in/jack-goldsworth-38605816b/"><img src="images/linkedin.png" alt="linkedin"></a>
-				</figure>
-				<figure class="image is-64x64">
-					<a href="https://twitter.com/JackGoldsworth"><img src="images/twitter.png" alt="twitter"></a>
-				</figure>
-			</div>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container has-text-centered">
-			<article>
-				Hello, My name is Jack Goldsworth, I am a 20 year old developer that loves solving problems and creating new software. <br>
-					I am currently a junior at Iowa State University studying Software Engineering. <br> <strong> Below are some of my projects</strong>:
-			</article>
-		</div>
-	</section>
-	<section class="section">
-		<div class="container has-text-centered">
-			<div class="columns">
-				<div class="column">
-					<div class="notification is-black">
-						<h1 class="title">HwK</h1>
-						<p class="is-size-5">
-							HwK is a JVM scripting language. The language compiles down to java byte code with the help of the ASM library. The grammar was created and parsed using ANTLR. <br> Learn more
-						</p>
-						<a href="https://github.com/JackGoldsworth/HwK2">here</a>
-					</div>
-				</div>
-				<div class="column">
-					<div class="notification is-dark">
-						<h1 class="title">DumbCode</h1>
-						<p class="is-size-5">
-							DumbCode is a Minecraft modding team that develops some of the most advanced Minecraft mods to date. Our
-							flagship mod is called Project Nublar, which adds dinosaurs to Minecraft. Learn more
-						</p>
-						<a href="http://dumbcode.net">here</a>
-					</div>
-				</div>
-				<div class="column">
-					<div class="notification is-link">
-						<h1 class="title">Vision</h1>
-						<p class="is-size-5">
-							Vision is a home automation system. Think of it as a cheap alexa clone with many less features. Originally it was built in
-							Python, but it is currently in a Kotlin re-write. <br> Learn more
-						</p>
-						<a href="https://github.com/JackGoldsworth/Vision2">here</a>
-					</div>
-				</div>
-				<div class="column">
-					<div class="notification is-info">
-						<h1 class="title">JurassiCraft</h1>
-						<p class="is-size-5">
-							JurassiCraft is a Minecraft mod based off of Jurassic Park, and it adds dinosaurs to Minecraft. It has been
-							downloaded over 3.7 Million times and has a very active community. <br> Learn more
-						</p>
-						<a href="https://minecraft.curseforge.com/projects/jurassicraft">here</a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	</body>
+<head>
+    <title>Jack Goldsworth</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" href="style/style.css"/>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+</head>
+<body class="main">
+<nav class="navbar navbar-expand-lg">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link text-light abel" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light abel" href="#experience">Experience <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link text-light abel" href="#projects">Projects <span class="sr-only">(current)</span></a>
+            </li>
+        </ul>
+        <a href="files/resume.pdf" download><button class="btn btn-outline-light" type="submit">Resume</button></a>
+    </div>
+</nav>
+<section id="about">
+    <div style="text-align: center; margin-top: 10vh;">
+        <h1 class="light-grey main-text" style="padding: 0">Jack Goldsworth</h1>
+        <p class="light-grey robo>">
+            I am software developer that loves solving problems and learning new things. <br>
+            Currently, I am a Junior at Iowa State University majoring in Software Engineering. I fell in love with <br>
+            programming when I was fourteen while making Minecraft plugins, and I decided to turn my hobby into a
+            career.
+            <br>
+            <br>
+            Areas of software that I'm interested in: Programming Language Design, Embedded Systems, and Application
+            Development.
+        </p>
+    </div>
+    <div class="center">
+        <a href="https://github.com/JackGoldsworth"><img class="hover" src="images/github-large.png" style="height: 120px; width: 120px; margin: 1vw;"></a>
+        <a href="https://www.linkedin.com/in/jack-goldsworth-38605816b/"><img class="hover" src="images/linkedin.png" style="height: 120px; width: 120px;"></a>
+    </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" style="margin: 10vh">
+    <h1 class="light-grey main-text" style="text-align: center; margin-bottom: 4vh">Experience</h1>
+    <div class="card-deck">
+    <div class="card border-0 experience-card mb-3" style="max-width: 65vw;">
+        <div class="row no-gutters">
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Mutual of Omaha | Application Developer Intern (Jun 2020 - Aug 2020)</h5>
+                    <p class="card-text">IS-Marketing team - Worked as a full-stack developer on Mutual of Omaha's in
+                        house applications that support our marketing team.
+                        These tasks include fixing errors on both the front-end and back-end of our micro-services and
+                        automating excel reports to reduce report preparation time.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="card border-0 experience-card mb-3" style="max-width: 35vw;">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                    <ul class="experience-list">
+                        <li>Maintained and supported various microservices by writing unit tests, debugging code, and
+                            fixing runtime errors.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <hr style="background-color: #e0e0e0;">
+
+    <div class="card-deck">
+        <div class="card border-0 experience-card mb-3" style="max-width: 65vw">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">Mutual of Omaha | Application Developer Intern (May 2019 - Aug 2019)</h5>
+                        <p class="card-text">IS-Marketing team - Worked as a full-stack developer on Mutual of Omaha's
+                            in house applications that support our marketing team.
+                            These tasks include creating a gradle plugin to stream line developer tasks in a Jenkins
+                            pipeline, fixing errors on both the front-end and back-end of our micro-services,
+                            automating excel reports to reduce report preparation time, and updating micro-services
+                            libraries to reduce technical debt.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card border-0 experience-card mb-3" style="max-width: 35vw">
+            <div class="row no-gutters">
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <ul class="experience-list">
+                            <li>Developed a Gradle plugin that is to be used inside of a Jenkins pipeline to send files
+                                from Jenkins
+                                to another server where they can be properly requested using Solr.
+                            </li>
+                            <li>Created a REST service using Spring that allowed my team to view the health of our
+                                microservices.
+                            </li>
+                            <li>Introduced Python scripts that automated excel reports to reduce report preparation
+                                time.
+                            </li>
+                            <li>Developed SOAP regression tests for a SQL server 2008 to 2016 migration.
+                            </li>
+                            <li>Upgraded a microservice’s frontend from Angular 2 to Angular 8 to reduce technical debt.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="margin: 10vh">
+    <h1 class="light-grey main-text" style="text-align: center; margin-bottom: 4vh">Projects</h1>
+    <div class="card-deck">
+        <div class="card project-card border-0">
+            <img class="card-img-top" src="images/projects/vision.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Vision</h5>
+                <p class="card-text">Vision is a home automation system. Think of it as a cheap alexa clone with many
+                    less features. Originally it was built in Python, but it is currently in a Kotlin re-write. </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Utilized: Kotlin, JavaScript, React.JS, Spring Boot, Gradle, Travis-CI,
+                    SonarCloud
+                    <a style="float: right;" href="https://github.com/JackGoldsworth/Vision2"><img
+                            src="images/github.png"></a>
+                </small>
+            </div>
+        </div>
+
+
+        <div class="card project-card border-0">
+            <img class="card-img-top" src="images/projects/trex.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">DumbCode</h5>
+                <p class="card-text">DumbCode is a Minecraft modding team that develops some of the most advanced
+                    Minecraft mods to date. Our flagship mod is called Project Nublar, which adds dinosaurs to
+                    Minecraft.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Utilized: Java, JavaScript, Gradle, Travis-CI, SonarCloud, Gradle API, OpenGL
+                    <a style="float: right;" href="https://github.com/Dumb-Code"><img src="images/github.png"></a>
+                </small>
+            </div>
+        </div>
+
+        <div class="card project-card border-0">
+            <img class="card-img-top" src="images/projects/hwk.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">HwK</h5>
+                <p class="card-text">HwK is a JVM scripting language. The language compiles down to java byte code with
+                    the help of the ASM library. The grammar was created and parsed using ANTLR. </p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Utilized: Java, Kotlin, ASM, ANTLR4, Gradle, Travis-CI, SonarCloud
+                    <a style="float: right;" href="https://github.com/JackGoldsworth/HwK2"><img src="images/github.png"></a>
+                </small>
+            </div>
+        </div>
+    </div>
+
+    <!-- ROW 2 -->
+    <div class="card-deck" style="margin-top: 2vh">
+        <div class="card project-card border-0">
+            <img class="card-img-top" src="images/projects/serviceroomba.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">Service Roomba</h5>
+                <p class="card-text">Service Roomba is a piece of embedded software developed to run on
+                    a modified Roomba, that will allow that Roomba to autonomously traverse an obstacle course.</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Utilized: C, UART, PuTTY, IR Sensor, Servo motor, ADC
+                    <a style="float: right;" href="https://github.com/JackGoldsworth/Service-Roomba"><img
+                            src="images/github.png"></a>
+                </small>
+            </div>
+        </div>
+
+
+        <div class="card project-card border-0">
+            <img class="card-img-top" src="images/projects/jurassicraft.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">JurassiCraft</h5>
+                <p class="card-text">JurassiCraft is a Minecraft mod based off of Jurassic Park, and it adds
+                    dinosaurs to Minecraft. It has been downloaded over 3.7 Million times and has a very active
+                    community. </p>
+            </div>
+            <div class="card-footer">-
+                <small class="text-muted">Utilized: Java, Gradle, Gradle API, OpenGL, MCForge
+                    <a style="float: right;" href="https://www.curseforge.com/minecraft/mc-mods/jurassicraft"><img
+                            style="max-width: 32px; max-height: 32px;" src="images/website.png"></a>
+                </small>
+            </div>
+        </div>
+
+        <div class="card project-card border-0">
+            <img class="card-img-top" src="images/projects/selectunes.png" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">SelecTunes</h5>
+                <p class="card-text">SelecTunes is an android app that allows you host song parties,
+                    and it allows the listeners to vote for the next song!</p>
+            </div>
+            <div class="card-footer">
+                <small class="text-muted">Utilized: Kotlin, Spotify-API, Android-API, Mockito, Volley, Gradle, Gitlab
+                    CI/CD
+                    <a style="float: right;" href="https://github.com/SelecTunes"><img src="images/github.png"></a>
+                </small>
+            </div>
+        </div>
+    </div>
+    <div class="text-center">
+        <a href="https://github.com/JackGoldsworth">
+            <button class="btn  btn-outline-light" style="margin-top: 3vh;" type="submit">More Projects</button>
+        </a>
+    </div>
+</section>
+</body>
 </html>

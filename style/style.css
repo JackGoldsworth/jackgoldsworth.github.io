@@ -1,34 +1,74 @@
-.is-horizontal-center {
-    justify-content: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+html {
+    scroll-behavior: smooth;
 }
 
-.is-same-size {
-    height: 32px;
-    width: 32px;
+.main-text {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #222831;
 }
 
 .main {
+    background-color: #222831;
+}
+
+.light-grey {
+    color: #ebebeb;
+}
+
+.project-card {
+    background-color: #393e46!important;
+    color: #ebebeb!important;
+}
+
+.experience-card {
+    background-color: #222831!important;
+    color: #ebebeb!important;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card {
+    transition: all .2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+section {
+    height: 90vh;
+}
+
+.center {
     display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-    font-family: 'Rajdhani', sans-serif;
-    text-transform: uppercase;
-    font-weight: 300;
-    background: #f7f7f7;
+    justify-content: center;
+    align-items: center;
 }
 
-img:hover {
-    transform: scale(1.1);
+.experience-list {
+    list-style: none; /* Remove default bullets */
 }
 
-img {
+.experience-list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #00adb5; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.hover {
     transition: all .2s ease-in-out;
 }
 
-.column {
-    transition: all .2s ease-in-out;
-}
-
-.column:hover {
-    transform: scale(1.05);
+.hover:hover {
+    transform: scale(1.03);
 }
