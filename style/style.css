@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
 html {
     scroll-behavior: smooth;
+}
+
+.main-text {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
@@ -11,17 +16,17 @@ html {
 }
 
 .light-grey {
-    color: #eeeeee;
+    color: #ebebeb;
 }
 
 .project-card {
     background-color: #393e46!important;
-    color: #eeeeee!important;
+    color: #ebebeb!important;
 }
 
 .experience-card {
     background-color: #222831!important;
-    color: #eeeeee!important;
+    color: #ebebeb!important;
 }
 
 .card-img-top {
@@ -46,4 +51,24 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.experience-list {
+    list-style: none; /* Remove default bullets */
+}
+
+.experience-list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #00adb5; /* Change the color */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.hover {
+    transition: all .2s ease-in-out;
+}
+
+.hover:hover {
+    transform: scale(1.03);
 }
