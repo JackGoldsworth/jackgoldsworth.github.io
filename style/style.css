@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: #222831;
+}
+
+.main {
+    background-color: #222831;
+}
+
+.light-grey {
+    color: #eeeeee;
+}
+
+.project-card {
+    background-color: #222831!important;
+    color: #eeeeee!important;
+}
+
+.experience-card {
+    background-color: #222831!important;
+    color: #eeeeee!important;
+}
+
+section {
+    height: 90vh;
+}
