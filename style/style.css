@@ -1,57 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
 html {
     scroll-behavior: smooth;
 }
 
+.big-blue-text {
+    font-family: 'Karla', sans-serif;
+    font-size: 70px;
+    color: #66FCF1;
+}
+
 .main-text {
+    animation: fadein 4s;
+    -moz-animation: fadein 4s; /* Firefox */
+    -webkit-animation: fadein 1.7s; /* Safari and Chrome */
+    -o-animation: fadein 4s; /* Opera */
+    text-align: center;
+    margin: 10vh 0 0 0;
+}
+
+.secondary-text {
     font-family: 'Open Sans', sans-serif;
+    color: #e0e0e0;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 1.9s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
 }
 
-.navbar {
-    background-color: #222831;
-}
-
-.main {
-    background-color: #222831;
-}
-
-.light-grey {
-    color: #ebebeb;
-}
-
-.project-card {
-    background-color: #393e46!important;
-    color: #ebebeb!important;
-}
-
-.experience-card {
-    background-color: #222831!important;
-    color: #ebebeb!important;
-}
-
-.card-img-top {
-    width: 100%;
-    height: 9vw;
-    object-fit: cover;
-}
-
-.card {
-    transition: all .2s ease-in-out;
-}
-
-.card:hover {
-    transform: scale(1.03);
+.hero {
+    background: url("../images/bg.jpg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 section {
-    height: 90vh;
+    height: 100vh;
 }
+
 
 .center {
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: fadein 5s;
+    -moz-animation: fadein 5s; /* Firefox */
+    -webkit-animation: fadein 2.3s; /* Safari and Chrome */
+    -o-animation: fadein 5s; /* Opera */
 }
+
+.hover {
+    transition: all .2s ease-in-out;
+}
+
+.hover:hover {
+    transform: scale(1.03);
+}
+
+/**
+* Experience
+*/
 
 .experience-list {
     list-style: none; /* Remove default bullets */
@@ -65,10 +76,94 @@ section {
     margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
 
-.hover {
+/*
+* Cards
+*/
+
+.card {
     transition: all .2s ease-in-out;
 }
 
-.hover:hover {
+.card:hover {
     transform: scale(1.03);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 9vw;
+    object-fit: cover;
+}
+
+.project-card {
+    background-color: #393e46!important;
+    color: #ebebeb!important;
+    width: 0;
+}
+
+.experience-card {
+    background-color: #393e46!important;
+    color: #ebebeb!important;
+}
+
+/*
+* Animations
+*/
+
+#link1 {
+    animation: fadein 0.5s;
+    -moz-animation: fadein 0.5s; /* Firefox */
+    -webkit-animation: fadein 0.5s; /* Safari and Chrome */
+    -o-animation: fadein 0.5s; /* Opera */
+}
+
+#link2 {
+    animation: fadein 0.7s;
+    -moz-animation: fadein 0.7s; /* Firefox */
+    -webkit-animation: fadein 0.7s; /* Safari and Chrome */
+    -o-animation: fadein 1s; /* Opera */
+}
+
+#link3 {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s; /* Firefox */
+    -webkit-animation: fadein 0.9s; /* Safari and Chrome */
+    -o-animation: fadein 1.5s; /* Opera */
+}
+
+#link4 {
+    animation: fadein 1.3s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 1.1s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+}
+
+
+@keyframes fadein {
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes fadein { /* Firefox */
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+@-o-keyframes fadein { /* Opera */
+    0% { opacity:0; }
+    66% { opacity:0; }
+    100% { opacity:1; }
+}
+
+/*
+* Gradient
+*/
+.gradient {
+    background: rgb(28,28,28);
+    background: linear-gradient(rgba(28,28,28,1) 0%, rgba(15,15,15,1) 50%, rgba(4,4,4,1) 100%);
 }
