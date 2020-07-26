@@ -30,7 +30,7 @@ html {
 }
 
 .hero {
-    background: url("../images/bg.jpg") no-repeat;
+    background: url("../images/bg.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -80,11 +80,11 @@ section {
 * Cards
 */
 
-.card {
+.project-card.card {
     transition: all .2s ease-in-out;
 }
 
-.card:hover {
+.project-card.card:hover {
     transform: scale(1.03);
 }
 
@@ -96,13 +96,13 @@ section {
 
 .project-card {
     background-color: #393e46!important;
-    color: #ebebeb!important;
+    color: #e0e0e0!important;
     width: 0;
 }
 
 .experience-card {
-    background-color: #393e46!important;
-    color: #ebebeb!important;
+    background-color: #454545!important;
+    color: #e0e0e0!important;
 }
 
 /*
@@ -164,6 +164,43 @@ section {
 * Gradient
 */
 .gradient {
-    background: rgb(28,28,28);
-    background: linear-gradient(rgba(28,28,28,1) 0%, rgba(15,15,15,1) 50%, rgba(4,4,4,1) 100%);
+    background: #454545;
+}
+
+@media screen and (max-width: 1300px) {
+    #experience {
+        display: none!important;
+    }
+
+    #projects {
+        display: none!important;
+    }
+
+    .navbar {
+        display: none!important;
+    }
+
+    .hero {
+        height: 100vh;
+        overflow-y: hidden;
+    }
+}
+
+@media screen and (max-height: 800px) {
+    #experience {
+        display: none!important;
+    }
+
+    #projects {
+        display: none!important;
+    }
+
+    .navbar {
+        display: none!important;
+    }
+
+    .hero {
+        height: 100vh;
+        overflow-y: hidden;
+    }
 }
