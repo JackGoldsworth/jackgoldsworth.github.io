@@ -39,6 +39,7 @@ html {
 
 section {
     height: 100vh;
+    width: 100vw;
 }
 
 
@@ -158,13 +159,6 @@ section {
     0% { opacity:0; }
     66% { opacity:0; }
     100% { opacity:1; }
-}
-
-/*
-* Gradient
-*/
-.gradient {
-    background: #454545;
 }
 
 @media screen and (max-width: 1300px) {
