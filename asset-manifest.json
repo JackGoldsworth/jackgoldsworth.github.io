@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.js": "/static/js/main.dbad459f.chunk.js",
+    "main.js.map": "/static/js/main.dbad459f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.cd4869dc.js",
+    "runtime-main.js.map": "/static/js/runtime-main.cd4869dc.js.map",
+    "static/js/2.62fa8eed.chunk.js": "/static/js/2.62fa8eed.chunk.js",
+    "static/js/2.62fa8eed.chunk.js.map": "/static/js/2.62fa8eed.chunk.js.map",
+    "index.html": "/index.html",
+    "static/js/2.62fa8eed.chunk.js.LICENSE.txt": "/static/js/2.62fa8eed.chunk.js.LICENSE.txt",
+    "static/media/jurassicraft.cf75cd29.png": "/static/media/jurassicraft.cf75cd29.png",
+    "static/media/moo.ca7f06ce.svg": "/static/media/moo.ca7f06ce.svg",
+    "static/media/netapp_logo_1.7b6562f1.jpg": "/static/media/netapp_logo_1.7b6562f1.jpg",
+    "static/media/selectunes.182a85d1.png": "/static/media/selectunes.182a85d1.png",
+    "static/media/serviceroomba.a9dcbb9d.png": "/static/media/serviceroomba.a9dcbb9d.png",
+    "static/media/trex.952abfbd.png": "/static/media/trex.952abfbd.png",
+    "static/media/vision.3167f735.png": "/static/media/vision.3167f735.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd4869dc.js",
+    "static/js/2.62fa8eed.chunk.js",
+    "static/js/main.dbad459f.chunk.js"
+  ]
+}
