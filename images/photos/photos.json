@@ -1,0 +1,47 @@
+{
+  "1": {
+    "location": "Rocky Mountain National Park",
+    "src": "images/photos/DSC00988.JPG",
+    "panorama": false
+  },
+  "2": {
+    "location": "Panorama Point",
+    "src": "images/photos/DSC00380.jpg",
+    "panorama": false
+  },
+  "3": {
+    "location": "Panorama Point",
+    "src": "images/photos/DSC00401.jpg",
+    "panorama": false
+  },
+  "4": {
+    "location": "Garden of the Gods",
+    "src": "images/photos/DSC00449.jpg",
+    "panorama": false
+  },
+  "5": {
+    "location": "Guanella Pass",
+    "src": "images/photos/DSC00564.jpg",
+    "panorama": false
+  },
+  "6": {
+    "location": "Sand Dunes National Park",
+    "src": "images/photos/DSC00654.jpg",
+    "panorama": false
+  },
+  "7": {
+    "location": "Rocky Mountain National Park",
+    "src": "images/photos/DSC00975.JPG",
+    "panorama": false
+  },
+  "8": {
+    "location": "Rocky Mountain National Park",
+    "src": "images/photos/DSC00946.JPG",
+    "panorama": true
+  },
+  "9": {
+    "location": "Rocky Mountain National Park",
+    "src": "images/photos/DSC00955.JPG",
+    "panorama": true
+  }
+}
